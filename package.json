@@ -3,12 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev:next":"nodemon app.js",
+    "dev:next": "nodemon app.js",
     "dev": "next dev",
     "build": "next build",
     "start": "next start"
   },
   "dependencies": {
+    "ioredis": "^4.19.2",
     "koa": "^2.13.0",
     "koa-router": "^10.0.0",
     "next": "10.0.3",
